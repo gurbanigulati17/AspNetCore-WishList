@@ -7,7 +7,7 @@ using WishList.Data;
 
 namespace WishList.Controllers
 {
-    public class ItemController1 : Controller
+    public class ItemController : Controller
     {
         private readonly ApplicationDbContext _context;
         public ItemController1(ApplicationDbContext context)
